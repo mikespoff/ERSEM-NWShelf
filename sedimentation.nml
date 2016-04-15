@@ -1,0 +1,20 @@
+&sedimentation_parameters
+	rP1mX=0.00E+00
+	rP2mX=0.00E+00
+	rP3mX=0.00E+00
+	rP4mX=0.00E+00
+	rR4mX=0.5
+	rR6mX=2.0
+	rR8mX=10.0
+/
+!
+! Parameter Descritptions:
+!
+!	rP1mX: sinking velocity of diatoms [m/d] (0.00E+00)
+!	rP2mX: sinking velocity of medium size phytoplankton [m/d] (0.00E+00)
+!	rP3mX: sinking velocity of small phytoplankton [m/d] (0.00E+00)
+!	rP4mX: sinking velocity of large phytoplankton [m/d] (0.00E+00)
+!	rR4mX: sinking velocity of small POM [m/d] (0.5)
+!	rR6mX: sinking velocity of medium size POM [m/d] (2.0)
+!	rR8mX: sinking velocity of large POM [m/d] (10.0)
+!

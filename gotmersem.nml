@@ -1,0 +1,58 @@
+!-------------------------------------------------------------------------
+! Parameters for GotmErsem model interface:
+!
+!  nersemout -> output of ERSEM every nersemout timesteps
+!  ncdfErsemFile -> name of netcdf Ersem output file
+!  ncdfErsemTitle -> title of netcdf ERSEM data saved in output file
+!  splitting -> split biogeochemical rate integration (.true.)
+!           or include in advection diffusion operator (.false.)
+!  split_factor   -> number of biogeochemical time steps per physical 
+!                    time step
+!  bio_calc        -> calculation of the ERSEM (.true./.false.)
+!  bioshade_feedback -> feedback of bio-turbidity to temp. eq. 
+!                       (.true./.false.)
+!  w_adv_ctr     -> use vertical velocity (1) or not (0)
+!  w_adv_discr     -> advection scheme for vertical motion
+!                  1: first order upstream
+!                  2: not coded yet 
+!                  3: third-order polynomial
+!                  4: TVD with Superbee limiter
+!                  5: TVD with MUSCL limiter
+!                  6: TVD with ULTIMATE QUICKEST
+!  cnpar            -> parameter for "explicitness" of numerical scheme
+!  kc=        -> attenuation constant for the self shading 
+!                  effect  [m2/mmol N]
+!
+!  ode_method      -> ODE scheme for source and sink dynamics
+!                   Patankar schemes not available for ERSEM
+!                    as rates are not split into production and destruction
+!                  1: first-order explicit (not positive)
+!                  2: second order explicit Runge-Kutta (not positive)
+!                  3: fourth-order explicit Runge-Kutta (not positive)
+!ncdfInstOut    logical   instantanous model output
+!ncdfDailyOut   logical   daily model output
+!ncdfWeeklyOut  logical   weekly model output
+!ncdfMonthlyOut logical   monthly model output
+!
+&gotmersem_nml
+  ncdfErsemFile='GotmErsem.nc'
+  ncdfErsemTitle='GOTM-ERSEM at NWShelf'
+  splitting=.false.
+  split_factor=1
+  bio_calc=.true.
+  bioshade_feedback=.true.
+  w_adv_ctr=1
+  w_adv_discr=6
+  cnpar=1.
+  kc=.03
+  ode_method=1
+  nbudget = 72
+  ncdfInstOut = .TRUE.
+  ncdfDailyOut   = .TRUE.
+  ncdfWeeklyOut  = .FALSE.
+  ncdfMonthlyOut = .TRUE.
+  readErsemRestart = .TRUE.
+  nspinUpBenthos = 10000000
+  !nspinUpBenthos = 0
+  writeErsemRestart = .TRUE.
+/

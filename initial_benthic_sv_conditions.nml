@@ -1,0 +1,78 @@
+&initial_benthic_sv_conditions
+	bl2cR=5.E-002
+	D1MR=0.009
+	D2MR=0.050
+	D3MR=0.2
+	D4MR=0.25
+	D5MR=0.313
+	D6MR=0.0173
+	D7MR=0.02
+	D8MR=0.025
+	D9MR=0.0313
+	G2OR=.0225
+	G3CR=375.
+	G4NR=1.
+	H1CR=25.0
+	H2CR=400.0
+	K1PR=6.8
+	K3NR=0.584
+	K4NR=25.0
+	K5SR=20.1
+	Q17CR=0.
+	Q17NR=0.
+	Q17PR=0.
+	Q1CR=18.9
+	Q1NR=0.6
+	Q1PR=0.0035
+	Q6CR=3052.
+	Q6FR=1.695
+	Q6NR=3.5
+	Q6PR=0.5
+	Q6SR=149.
+	Q7CR=30520.
+	Q7NR=80.
+	Q7PR=8.
+	Y2CR=3000.
+	Y3CR=2000.
+	Y4CR=200.
+/
+!
+! Parameter Descritptions:
+!
+!	bl2cR: initial condition for benthic calcite (0.05)
+!	D1MR: initial condition for benthic aerobic layer depth (0.009)
+!	D2MR: initial condition for benthic reduced surface depth (0.05)
+!	D3MR: initial condition for penetration depth of refractory carbon (0.2)
+!	D4MR: initial condition for penetration depth of refractory nitrogen (0.25)
+!	D5MR: initial condition for penetration depth of refractory phosporus (0.313)
+!	D6MR: initial condition for penetration depth of slowly degradable carbon (0.0173)
+!	D7MR: initial condition for penetration depth of slowly degradable nitrogen (0.02)
+!	D8MR: initial condition for penetration depth of slowly degradable phosphorus (0.025)
+!	D9MR: initial condition for penetration depth of slowly degradable silicon (0.0313)
+!	G2OR: initial condition for benthic oxygen (0.0225)
+!	G3CR: initial condition for benthic inorganic carbon (375)
+!	G4NR: initial condition for benthic NO2 (1)
+!	H1CR: initial condition for benthinc aerobic bacteria carbon (25)
+!	H2CR: initial condition for benthinc anaerobic bacteria carbon (400)
+!	K1PR: initial condition for benthic inorganic phosphate (6.8)
+!	K3NR: initial condition for benthic inorganic nitrate (0.584)
+!	K4NR: initial condition for benthic inorganic ammonium (25)
+!	K5SR: initial condition for benthic inorganic silicate (20.1)
+!	Q17CR: initial condition for burried refractory benthic carbon (0)
+!	Q17NR: initial condition for burried refractory benthic nitrogen (0)
+!	Q17PR: initial condition for burried refractory benthic phosphorus (0)
+!	Q1CR: initial condition for benthic dissolved organic carbon (18.9)
+!	Q1NR: initial condition for benthic dissolved organic nitrogen (0.6)
+!	Q1PR: initial condition for benthic dissolved organic phosphorus (0.0035)
+!	Q6CR: initial condition for slowly degradable benthic organic carbon (3052)
+!	Q6FR: initial condition for slowly degradable benthic organic iron (1.695)
+!	Q6NR: initial condition for slowly degradable benthic organic nitrogen (3.5)
+!	Q6PR: initial condition for slowly degradable benthic organic phosphorus (0.5)
+!	Q6SR: initial condition for slowly degradable benthic organic silicon (149)
+!	Q7CR: initial condition for available refractory benthic carbon (30520)
+!	Q7NR: initial condition for available refractory benthic nitrogen (80)
+!	Q7PR: initial condition for available refractory benthic phosphorus (8)
+!	Y2CR: initial condition for deposit feeders carbon (3000)
+!	Y3CR: initial condition for suspension/filter feeder carbon (2000)
+!	Y4CR: initial condition for meiobenthos carbon (200)
+!

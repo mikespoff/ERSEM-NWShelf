@@ -1,0 +1,126 @@
+&initial_pelagic_sv_conditions
+	adyR=2.E-02
+	B1CR=15.7
+	B1NR=0.26
+	B1PR=0.029
+	bioalkR=0.
+	CHL1R=0.4
+	CHL2R=0.3
+	CHL3R=0.3
+	CHL4R=0.3
+	ESSXR=800.
+	L2cR=5.E-002
+	N1PR=0.5
+	N3NR=8.0
+	N4NR=.1
+	N5SR=3.5
+	N7FR=0.4
+	O2OR=300.0
+	O3CR=2130.0
+	P1CR=8.0
+	P1FR=.004
+	P1NR=0.1114
+	P1PR=0.009
+	P1SR=0.016
+	P2CR=5.9
+	P2FR=.00295
+	P2NR=0.0926
+	P2PR=0.0036
+	P3CR=5.9
+	P3FR=.00295
+	P3NR=0.0926
+	P3PR=0.0036
+	P4CR=5.9
+	P4FR=.00295
+	P4NR=0.0926
+	P4PR=0.0036
+	R1CR=10.0
+	R1NR=0.14
+	R1PR=0.01
+	R2CR=12.0
+	R4CR=7.2
+	R4FR=.0036
+	R4NR=0.1
+	R4PR=0.007
+	R6CR=17.0
+	R6FR=.0085
+	R6NR=0.24
+	R6PR=0.02
+	R6SR=0.00
+	R8CR=0.17
+	R8NR=0.0024
+	R8PR=0.0002
+	R8SR=0.001
+	X1XR=34.8
+	Z4CR=1.2
+	Z5CR=7.2
+	Z5NR=0.12
+	Z5PR=0.0113
+	Z6CR=2.421
+	Z6NR=0.0505
+	Z6PR=0.047
+/
+!
+! Parameter Descritptions:
+!
+!	adyR: initial condition for particulate adsorption coefficient (0.02)
+!	B1CR: initial condition for bacteria carbon (15.7)
+!	B1NR: initial condition for bacteria nitrogen (0.26)
+!	B1PR: initial condition for bacteria phosporus (0.029)
+!	bioalkR: initial condition for bioalkalinity (0)
+!	CHL1R: initial condition for diatom chlorophyll-a (0.4)
+!	CHL2R: initial condition for nanophytoplankton chlorophyll-a (0.3)
+!	CHL3R: initial condition for picophytoplankton chlorophyll-a (0.3)
+!	CHL4R: initial condition for microphytoplankton chlorophyll-a (0.3)
+!	ESSXR: initial condition for inorganic suspended matter (800)
+!	L2cR: initial condition for calcite (0.05)
+!	N1PR: initial condition for phosphate (0.5)
+!	N3NR: initial condition for nitrate (8)
+!	N4NR: initial condition for ammonium (0.1)
+!	N5SR: initial condition for silicate (3.5)
+!	N7FR: initial condition for disolved inorganic iron (0.4)
+!	O2OR: initial condition for dissolved oxygen (300)
+!	O3CR: initial condition for dissolved carbon (2130)
+!	P1CR: initial condition for diatom carbon (8)
+!	P1FR: initial condition for diatom iron (0.004)
+!	P1NR: initial condition for diatom nitrogen (8.0) (0.1114)
+!	P1PR: initial condition for diatom phosphorus (0.009)
+!	P1SR: initial condition for diatom silicon (0.016)
+!	P2CR: initial condition for nanophytoplankton carbon (5.9)
+!	P2FR: initial condition for nanophytoplankton iron (0.00295)
+!	P2NR: initial condition for nanophytoplankton nitrogen (0.0926)
+!	P2PR: initial condition for nanophytoplankton phosphorus (0.0036)
+!	P3CR: initial condition for picophytoplankton carbon (5.9)
+!	P3FR: initial condition for picpophytoplankton iron (0.00295)
+!	P3NR: initial condition for picophytoplankton nitrogen (0.0926)
+!	P3PR: initial condition for picophytoplankton phosphorus (0.0036)
+!	P4CR: initial condition for microphytoplankton carbon (5.9)
+!	P4FR: initial condition for microphytoplankton iron (0.00295)
+!	P4NR: initial condition for microphytoplankton nitrogen (0.0926)
+!	P4PR: initial condition for microphytoplankton phosphorus (0.0036)
+!	R1CR: initial condition for dissolved organic carbon (10)
+!	R1NR: initial condition for dissolved organic nitrogen (0.14)
+!	R1PR: initial condition for dissolved organic phosphorus (0.01)
+!	R2CR: initial condition for semi-labile organic carbon (12)
+!	R4CR: initial condition for small particulate organic carbon (7.2)
+!	R4FR: initial condition for small particulate organic iron (0.0036)
+!	R4NR: initial condition for small particulate organic nitrogen (0.1)
+!	R4PR: initial condition for small particulate organic phosphorus (0.007)
+!	R6CR: initial condition for medium size particulate carbon (17)
+!	R6FR: initial condition for medium size particulate organic iron (0.0085)
+!	R6NR: initial condition for medium size particulate nitrogen (0.24)
+!	R6PR: initial condition for medium size particulate phosphorus (0.02)
+!	R6SR: initial condition for medium size particulate silicon (0)
+!	R8CR: initial condition for large particulate organic carbon (0.17)
+!	R8NR: initial condition for large particulate organic nitrogen (0.0024)
+!	R8PR: initial condition for large particulate organic phosphorus (0.0002)
+!	R8SR: initial condition for largeparticulate orgnanic silicon (0.001)
+!	X1XR: initial condition for salinity (34.6)
+!	Z4CR: initial condition for mesozooplankton carbon (1.2)
+!	Z5CR: initial condition for microzooplankton carbon (7.2)
+!	Z5NR: initial condition for microzooplankton nitrogen (0.12)
+!	Z5PR: initial condition for microzooplankton phosphorus (0.0113)
+!	Z6CR: initial condition for heteroflagellate carbon (2.421)
+!	Z6NR: initial condition for heteroflagellate nitrogen (0.0505)
+!	Z6PR: initial condition for heteroflagellate phosphorus (0.047)
+!

@@ -1,0 +1,162 @@
+&ersem_pelagic_switches
+	ISWASFLUX=2
+	ISWB1X=1
+	ISwbioalk=1
+	ISWBlimX=2
+	ISwcal=1
+	ISWCO2X=1
+	ISWECOLX=1
+	ISWO2X=2
+	ISWP1X=1
+	ISWP2X=1
+	ISWP3X=1
+	ISWP4X=1
+	ISWPHX=1
+	ISWTALK=2
+	ISWZ4X=1
+	ISWZ5X=1
+	ISWZ6X=1
+	ISWZeroControl=1
+	ITRNady=29
+	ITRNB1c=22
+	ITRNB1n=24
+	ITRNB1p=23
+	ITRNbioalk=21
+	ITRNChl1=22
+	ITRNChl2=22
+	ITRNChl3=22
+	ITRNChl4=22
+	ITRNL2c=22
+	ITRNN1p=23
+	ITRNN3n=24
+	ITRNN4n=24
+	ITRNN5s=25
+	ITRNN7f=27
+	ITRNO2o=21
+	ITRNO3c=21
+	ITRNP1c=22
+	ITRNP1f=27
+	ITRNP1n=24
+	ITRNP1p=23
+	ITRNP1s=25
+	ITRNP2c=22
+	ITRNP2f=27
+	ITRNP2n=24
+	ITRNP2p=23
+	ITRNP3c=22
+	ITRNP3f=27
+	ITRNP3n=24
+	ITRNP3p=23
+	ITRNP4c=22
+	ITRNP4f=27
+	ITRNP4n=24
+	ITRNP4p=23
+	ITRNR1c=22
+	ITRNR1n=24
+	ITRNR1p=23
+	ITRNR2c=22
+	ITRNR4c=22
+	ITRNR4f=27
+	ITRNR4n=24
+	ITRNR4p=23
+	ITRNR6c=22
+	ITRNR6f=27
+	ITRNR6n=24
+	ITRNR6p=23
+	ITRNR6s=25
+	ITRNR8c=22
+	ITRNR8n=24
+	ITRNR8p=23
+	ITRNR8s=24
+	ITRNZ4c=22
+	ITRNZ5c=22
+	ITRNZ5n=24
+	ITRNZ5p=23
+	ITRNZ6c=22
+	ITRNZ6n=24
+	ITRNZ6p=23
+	LimnutX=0
+	Z4_OW_SW=1
+/
+!
+! Parameter Descritptions:
+!
+!	ISWASFLUX: redundant switch, should be 2
+!	ISWB1X: compute bacteria dynamics
+!	ISwbioalk: switch for bioalk dynamics
+!	ISWBlimX: switch for bacteria nutrient limitation (0=minimum of inorganic and organic availability,1=additive availabiility)
+!	ISwcal: switch for calcification dynamics
+!	ISWCO2X: switch for computation of carbonate system
+!	ISWECOLX: switch for computation of biogeochemical rates
+!	ISWO2X: switch for oxygen saturation (0=old ERSEM,1=WEISS 1970 DSR)
+!	ISWP1X: compute diatom dynamics
+!	ISWP2X: compute nanophytoplankton dynamics
+!	ISWP3X: compute picophytoplankton dynamics
+!	ISWP4X: compute microphytoplankton dynamics
+!	ISWPHX: switch for pH impact on nitrification
+!	ISWTALK: switch for alkalinity parametrisation (1=TA(S)-old;2=TA(S)-Millero,3=TA(T,S)-Millero,4=TA(T,S)-Lee,5=prognostic)
+!	ISWZ4X: compute mesozooplankton dynamics
+!	ISWZ5X: compute microzooplankton dynamics
+!	ISWZ6X: compute heteroflagellates dynamics
+!	ISWZeroControl: switch for maintainance of positive, close to 0 biomasses
+!	ITRNady: transport switch for particulate adsoprtion coefficient
+!	ITRNB1c: transport switch for bacteria carbon
+!	ITRNB1n: transport switch for bacteria nitrogen
+!	ITRNB1p: transport switch for bacteria phosphorus
+!	ITRNbioalk: transport switch for bioalkalinity
+!	ITRNChl1: transport switch for diatom chlorophyll-a
+!	ITRNChl2: transport switch for nanophytoplankton chlorophyll-a
+!	ITRNChl3: transport switch for picophytoplankton chlorophyll-a
+!	ITRNChl4: transport switch for microphytoplankton chlorophyll-a
+!	ITRNL2c: transport switch for calcite
+!	ITRNN1p: transport switch for phosphate
+!	ITRNN3n: transport switch for nitrate
+!	ITRNN4n: transport switch for ammonium
+!	ITRNN5s: transport switch for silicate
+!	ITRNN7f: transport switch for inorganic iron
+!	ITRNO2o: transport switch for dissolved oxygen
+!	ITRNO3c: transport switch for dissolved carbon
+!	ITRNP1c: transport switch for diatom carbon
+!	ITRNP1f: transport switch for diatom iron
+!	ITRNP1n: transport switch for diatom nitrogen
+!	ITRNP1p: transport switch for diatom phosphorus
+!	ITRNP1s: transport switch for diatom silicon
+!	ITRNP2c: transport switch for nanophytoplankton carbon
+!	ITRNP2f: transport switch for nanophytoplankton iron
+!	ITRNP2n: transport switch for nanophytoplankton nitrogen
+!	ITRNP2p: transport switch for nanophytoplankton phosphorus
+!	ITRNP3c: transport switch for nanophytoplankton carbon
+!	ITRNP3f: transport switch for picophytoplankton iron
+!	ITRNP3n: transport switch for nanophytoplankton nitrogen
+!	ITRNP3p: transport switch for nanophytoplankton phosphorus
+!	ITRNP4c: transport switch for nanophytoplankton carbon
+!	ITRNP4f: transport switch for microphytoplankton iron
+!	ITRNP4n: transport switch for nanophytoplankton nitrogen
+!	ITRNP4p: transport switch for nanophytoplankton phosphorus
+!	ITRNR1c: transport switch for dissolved organic carbon
+!	ITRNR1n: transport switch for dissolved organic nitrogen
+!	ITRNR1p: transport switch for dissolved organic phosphorus
+!	ITRNR2c: transport switch for semi-labile organic carbon
+!	ITRNR4c: transport switch for small particulate organic carbon
+!	ITRNR4f: transport switch for small particulate orgnanic carbon
+!	ITRNR4n: transport switch for small particualte organic nitrogen
+!	ITRNR4p: transport switch for small particualte organic phosphorus
+!	ITRNR6c: transport switch for medium size particulate organic carbon
+!	ITRNR6f: transport switch for medium size particulate organic iron
+!	ITRNR6n: transport switch for medium size particulate organic nitrogen
+!	ITRNR6p: transport switch for medium size particulate organic phosphorus
+!	ITRNR6s: transport switch for medium size particulate organic silicate
+!	ITRNR8c: transport switch for small particualte organic carbon
+!	ITRNR8n: transport switch for small particualte organic nitrogen
+!	ITRNR8p: transport switch for small particualte organic phosphorus
+!	ITRNR8s: transport switch for small particualte organic silicon
+!	ITRNZ4c: transport switch for mesozooplankton carbon
+!	ITRNZ5c: transport switch for microzooplankton carbon
+!	ITRNZ5n: transport switch for microzooplankton nitrogen
+!	ITRNZ5p: transport switch for microzooplankton phosphorus
+!	ITRNZ6c: transport switch for heteroflagellate carbon
+!	ITRNZ6n: transport switch for heteroflagellate nitrogen
+!	ITRNZ6p: transport switch for heteroflagellate phosphorus
+!	LimnutX: switch for phytoplankton nutrient limitation (0=geometric mean,1=minimum limit,2=harmonic mean)
+!	Z4_OW_SW: mesozooplankton overwintering switch
+!
